@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pixabay/pixabay_page.dart';
+import 'package:pixabay/pokemon_page.dart';
 
 import 'nhk_page.dart';
 
@@ -50,6 +51,15 @@ class ListPage extends StatelessWidget {
                 );
               },
               child: const Text('NHK'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const PokemonPage()),
+                );
+              },
+              child: const Text('ポケモン'),
             ),
           ],
         ),
