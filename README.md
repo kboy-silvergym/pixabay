@@ -1,4 +1,4 @@
-# Flutterの教科書:APIのサンプルコード
+# Flutterの教科書:フリー画像検索アプリのサンプルコード
 
 Flutterの教科書はこちら
 https://zenn.dev/flutteruniv/books/flutter-textbook
