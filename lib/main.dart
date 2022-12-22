@@ -3,6 +3,7 @@ import 'package:pixabay/pixabay_page.dart';
 import 'package:pixabay/pokemon_page.dart';
 
 import 'nhk_page.dart';
+import 'openapi_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -60,6 +61,15 @@ class ListPage extends StatelessWidget {
                 );
               },
               child: const Text('ポケモン'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const OpenAPIPage()),
+                );
+              },
+              child: const Text('OpenAPI'),
             ),
           ],
         ),
