@@ -42,7 +42,7 @@ class _OpenAPIPageState extends State<OpenAPIPage> {
   }
 
   void requestChatGPT(String text) async {
-    String apiKey = "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";
+    String apiKey = "<Your API Key>";
     String model = "text-davinci-002";
     Dio dio = Dio();
     dio.options.headers = {"Content-Type": "application/json", "Authorization": "Bearer $apiKey"};

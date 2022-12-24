@@ -12,7 +12,7 @@ class NHKPage extends StatefulWidget {
 class _NHKPageState extends State<NHKPage> {
   List programList = [];
 
-  final apiKey = 'xEVAUSaU1SwgDRsqT9i8GKmm3cT4MeGW';
+  final apiKey = '<Your API Key>';
   final areaId = 130; // 130は東京 ..その他参考:https://api-portal.nhk.or.jp/doc-list-v2-con
   final serviceId = 'e1'; // e1はNHKEテレ ..その他参考:https://api-portal.nhk.or.jp/doc-list-v2-con
 
